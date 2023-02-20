@@ -1,0 +1,131 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+  
+  form{
+      background-color: white;
+      padding: 0px 40px;
+      border-radius: 10px;
+      opacity: 0.8;
+  }
+  
+  h1{
+      color: rgb(77, 1, 77);
+      text-align: center;
+  }
+  
+  button{
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: rebeccapurple;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+  }
+
+  .bottom-text {
+    font-size: 14px;
+    float: right;
+  }
+
+  .signup-form {
+    margin: 40px;
+    padding-bottom: 40px;
+    opacity: 0.8;
+    width: 30%;
+  }
+
+  .login-form {
+    opacity: 0.8;
+    width: 30%;
+  }
+
+  .error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, -0.3),
+        rgba(255, 255, 255, -0.7)
+      ),
+      url("https://cdn.mos.cms.futurecdn.net/PuXipAW3AXUzUJ4uYyxPKC-1200-80.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .warning-icon {
+    font-size: large;
+  }
+
+  .logout-button {
+    float: right;
+  }
+
+  .card {
+    border: 2px solid;
+  }
+
+  .card-heading {
+    background-color: #c182df;
+    color: #fff;
+    padding: 8px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+
+  .table-label {
+    text-align: left;
+    padding: 10px
+  }
+
+  .nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(96, 17, 141);
+    height: 55px;
+  }
+  
+  li {
+    float: left;
+    width: 25%;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: '20%';
+    height: 55px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(10, 3, 15);
+    color: rgb(243, 243, 243);
+  }
+
+  li a:hover {
+    background-color: black;
+  }
+  
+  .active {
+    background-color: rgb(96, 17, 141);
+    color: #fff;
+  }
+
+  
